@@ -92,7 +92,7 @@ function generateTeams(){
 
 
 function seperateStudents(studentNames){
-    let studentList = document.getElementById('student-names-input').value.split(",")
+    let studentList = document.getElementById('student-names-input').value.split("\n")
     let initialLength = studentList.length;
     let studentsPerTeam = Math.ceil(studentList.length / document.getElementById('number-of-groups-input').value);
     let currentTeam = 1;
@@ -114,13 +114,13 @@ function seperateStudents(studentNames){
 }
 
 function checkInvalidInput(){
-    studentList = document.getElementById('student-names-input').value.split(",")
+    studentList = document.getElementById('student-names-input').value.split("\n")
     if(studentList.length < document.getElementById('number-of-groups-input').value){
         alert("Can not have more groups than students.");
             return false;
     }
     if(studentList[studentList.length-1] == ""){
-        alert("Can not end student list with a comma.");
+        alert("Can not end student list with a new line.");
         return false;
     }
     for(let i = 0; i < studentList.length; i++){
