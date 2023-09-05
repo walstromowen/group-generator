@@ -1,0 +1,170 @@
+:root{
+    --color-1: white;
+}
+*{
+    margin: 0;
+    padding: 0px;
+}
+body, html{
+    height: 100%;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+h3{
+    font-size: 24px;
+}
+.noHighlight{
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+}
+.team-box{
+    background-color:var(--color-1);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px black;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.input-label{
+    margin: auto 0;
+}
+.student-name{
+    font-size: 36px;
+    font-weight: bold;
+}
+.input{
+    background-color:var(--color-1);
+    width: 80px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+.input:hover{
+   border: 2px solid var(--color-1);
+}
+.team-layout-2{
+    width: 45%;
+    min-height: 90vh;
+}
+.team-layout-3{
+    width: 30%;
+    min-height: 90vh;
+}
+.team-layout-4{
+    width: 45%;
+    min-height: 40vh;
+}
+.team-layout-5-6{
+    width: 30%;
+    min-height: 40vh;
+}
+.team-layout-7-8-9{
+    width: 30%;
+    min-height: 25vh;
+}
+.team-layout-10-11-12{
+    width: 20%;
+    min-height: 25vh;
+}
+.team-layout-13-14-15{
+    width: 22%;
+    min-height: 16vh;
+}
+#app{
+    display: flex;
+    height: 100%;
+}
+#student-names-input{
+    resize: none;
+    background-color:var(--color-1);
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    border: solid 8px grey;
+}
+#col-1{
+    background-color:green;
+    min-width: 300px;
+    padding: 10px 10px;
+}
+#col-2{
+    background-color:var(--color-1);
+    width: 100%;
+}
+#viewport{
+    height: 100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url('./media/wood-floor.jpg');
+    background-size:cover;
+}
+#number-of-groups-selection{
+    width: 60px;
+}
+#team-1{
+    background-color: lightcoral;
+}
+#team-2{
+    background-color: lightgreen;
+}
+#team-3{
+    background-color: lightblue;
+}
+#team-4{
+    background-color: yellow;
+}
+#team-5{
+    background-color: violet;
+}
+#team-6{
+    background-color: orange;
+}
+#team-7{
+    background-color: whitesmoke;
+}
+#team-8{
+    background-color: pink;
+}
+#team-9{
+    background-color: royalblue;
+}
+#team-10{
+    background-color: green;
+}
+#team-11{
+    background-color: yellow;
+}
+#team-12{
+    background-color: plum;
+}
+#team-13{
+    background-color: orangered;
+}
+#team-14{
+    background-color: snow;
+}
+#team-15{
+    background-color: firebrick;
+}
+
+
+

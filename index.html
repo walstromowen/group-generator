@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Seating Chart Generator</title>
+        <meta charset='utf-8'>
+        <link href='styles.css' type='text/css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id='app'>
+            <div class='col' id='col-1'>
+                <h1>Student Names</h1>
+                <textarea id='student-names-input'></textarea>
+                <div class='flex-container'>
+                    <h2 class='input-label'>Groups: </h2>
+                    <select class='input noHighlight' id='number-of-groups-input'>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                        <option value=6>6</option>
+                        <option value=7>7</option>
+                        <option value=8>8</option>
+                        <option value=9>9</option>
+                        <option value=10>10</option>
+                        <option value=11>11</option>
+                        <option value=12>12</option>
+                        <option value=13>13</option>
+                        <option value=14>14</option>
+                        <option value=15>15</option>
+                    </select>
+                    <div class='input noHighlight' id='submit-btn'><h3>Submit</h3></div>
+                </div>
+            </div>
+            <div class='col' id='col-2'>
+                <div id='viewport'>
+                    
+                </div>
+            </div>
+        </div>
+        <script src='main.js'></script>
+    </body>
+</html>
